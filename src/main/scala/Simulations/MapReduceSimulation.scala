@@ -116,6 +116,9 @@ object MapReduceSimulation {
     }
     logger.info("Created " + nCloudlets + " cloudlets")
 
+    // Submitting VMs to broker
+    broker.submitVmList(vms.asJava)
+
     // Submitting mappers and reducers to broker
     broker.submitCloudletList(map_cloudlets.asJava)
     broker.submitCloudletList(reduce_cloudlets.asJava)
