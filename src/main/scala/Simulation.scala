@@ -21,12 +21,12 @@ object Simulation:
     FirstFitVmAllocationSimulation.Start()
     logger.info("Finished First Fit Simulation")
 
-    logger.info("Running MapReduce Simulation")
-    MapReduceSimulation.Start()
-    logger.info("Finished MapReduce Simulation")
-
     logger.info("Running Horizontal VM Autoscaler Simulation")
     HorizontalVMAutoscalingUsingLoadBalancer.Start()
     logger.info("Finished Horizontal VM Autoscaler Simulation")
+
+    logger.info("Running MapReduce Simulation")
+    MapReduceSimulation.Start()
+    logger.info("Finished MapReduce Simulation")
 
 class Simulation
