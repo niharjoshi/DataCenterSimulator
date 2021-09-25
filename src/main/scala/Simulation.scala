@@ -9,17 +9,24 @@ object Simulation:
 
   @main def runSimulation =
 
-//    logger.info("Running iteration ")
-//    RoundRobinVmAllocationSimulation.Start()
-//    logger.info("Finished cloud simulation")
-//
-//    logger.info("Running iteration ")
-//    BestFitVmAllocationSimulation.Start()
-//    logger.info("Finished cloud simulation")
-//
-//    logger.info("Running iteration ")
-//    FirstFitVmAllocationSimulation.Start()
-//    logger.info("Finished cloud simulation")
+    logger.info("Running Round Robin Simulation")
+    RoundRobinVmAllocationSimulation.Start()
+    logger.info("Finished Round Robin Simulation")
+
+    logger.info("Running Best Fit Simulation")
+    BestFitVmAllocationSimulation.Start()
+    logger.info("Finished Best Fit Simulation")
+
+    logger.info("Running First Fit Simulation")
+    FirstFitVmAllocationSimulation.Start()
+    logger.info("Finished First Fit Simulation")
+
+    logger.info("Running Horizontal VM Autoscaler Simulation")
+    HorizontalVMAutoscalingUsingLoadBalancer.Start()
+    logger.info("Finished Horizontal VM Autoscaler Simulation")
+
+    logger.info("Running MapReduce Simulation")
     MapReduceSimulation.Start()
+    logger.info("Finished MapReduce Simulation")
 
 class Simulation
