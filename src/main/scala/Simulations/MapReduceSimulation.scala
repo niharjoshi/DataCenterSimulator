@@ -32,11 +32,6 @@ object MapReduceSimulation {
     case None => throw new RuntimeException("Cannot obtain a reference to the config data.")
   }
 
-  // Initializing empty ListBuffers for basic resources
-  val hostPes = scala.collection.mutable.ListBuffer.empty[PeSimple]
-  val hosts = scala.collection.mutable.ListBuffer.empty[HostSimple]
-
-
   def Start(): String = {
 
     // Initializing cloudsim

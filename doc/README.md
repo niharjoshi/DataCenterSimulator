@@ -306,7 +306,7 @@ simulation comes out to be different in each run due to the random lengths of th
 execution time of the cloudlets vary due to the same reason. In the run shown above, the final cost of the simulation 
 was 5222.71.
 
-### Simulation Scenario 2 - Map Reduce Simualtion
+### Simulation Scenario 2 - Map Reduce Simulation
 
 MapReduce is a processing technique and a program model for distributed computing. The MapReduce algorithm contains 
 two important tasks - Map and Reduce. Map takes a set of data and converts it into another set of data, where 
