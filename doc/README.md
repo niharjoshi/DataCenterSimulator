@@ -357,6 +357,9 @@ MapReduceSimulation {
     }
 }
 ```
+After running MapReduce, we get the following results:
+
+![Alt text](map_reduce_results.png?raw=true "Map Reduce Results")
 
 ### Checklist:
 - [x] 3 scenarios
